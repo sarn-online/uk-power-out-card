@@ -1,0 +1,7 @@
+{
+  "name": "UK Power Out \u2014 ESEC Reference Rota",
+  "filename": "power-out-card.js",
+  "homeassistant": "2026.11.0",
+  "country": "GB",
+  "content_in_root": true
+}
