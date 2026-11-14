@@ -2,7 +2,7 @@
 
 Authoritative input: the official `esec-guidance-april-2026.pdf`. Annex 2 occupies PDF pages 23–40 (printed pages 22–35, with repeated printed page numbers in the original). Each level has 18 load blocks and 56 weekly three-hour periods. Black cells mean disconnected.
 
-The PDF was rendered locally using Apple's PDFKit. All 18,144 cell centres were sampled to extract the Boolean table. The first Annex 2 page has a different table layout from the remaining pages; the extraction uses separate geometry for it. The exact source table is compiled into RotaData.swift, with no runtime downloads or formula extrapolation.
+The PDF was rendered locally using Apple's PDFKit. All 18,144 cell centres were sampled to extract the Boolean table. The first Annex 2 page has a different table layout from the remaining pages; the extraction uses separate geometry for it. The exact source table is compiled into the ROTA_LEVELS strings in power-out-card.js, with no runtime downloads or formula extrapolation.
 
 Independent comparison: official accessible Annex 2 workbook linked from the GOV.UK ESEC publication, downloaded 11 November 2026:
 https://assets.publishing.service.gov.uk/media/65f443e29d99de001d03df94/esec-annex-2-rota-plans.xlsx

@@ -1,11 +1,14 @@
 # Changelog
 
-## 1.0.0 — initial release candidate
+## 1.1.0
 
-- Offline April 2026 ESEC PDF reference tables for all 18 levels and 18 load blocks.
-- Compact rota/level selectors, today's timeline, exact red OFF ranges and six-day grid.
-- Browser-persistent selections, native visual configuration editor and amber pylon icon.
-- UK clock handling, midnight carry-over and documented PDF/spreadsheet discrepancies.
-- Source/minute validation, HACS manifest and automated release packaging.
+- UK Power Out Rota heading and restored 1–18 reference-level slider.
+- Immediate previews while dragging; keep keyboard and pointer focus.
+- Optional shared sensor integration; editable dropdowns and slider save centrally.
+- Retain the latest rapid input, reject stale acknowledgements and roll back failed saves.
+- Show unknown periods outside shared scenario dates; move shared details to the bottom.
+- Preserve standalone operation and browser preferences.
 
-Reference scenarios only; this card has no live outage feed.
+## 1.0.0
+
+Initial public release: all 18 rota letters and levels, offline source tables, today/six-day outlook, visual editor, UK clock handling and source validation.
